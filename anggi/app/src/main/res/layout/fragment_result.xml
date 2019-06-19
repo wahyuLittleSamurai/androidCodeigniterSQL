@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desain"
+    tools:context=".result">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50px">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Of user"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:paddingTop="20px"
+            android:paddingLeft="20px"/>
+
+        <TextView
+            android:id="@+id/textView741"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KVM"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:paddingLeft="20px"/>
+
+        <TextView
+            android:id="@+id/txtKvp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FVC"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:paddingLeft="20px"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="240px"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Result 1"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtResult1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="240px"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Result 2"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="20px"/>
+
+                <TextView
+                    android:id="@+id/txtResult2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="240px"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Result 3"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtResult3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Result"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingLeft="20px"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="Restriktif"
+                android:textSize="30sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="Obstruktif"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="360px"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:id="@+id/txtRestriktif"/>
+                <TextView
+                    android:layout_width="360px"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:id="@+id/txtObstruktif"/>
+
+            </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="360px"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:id="@+id/txtDecRes"/>
+                <TextView
+                    android:layout_width="360px"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:id="@+id/txtDecObs"/>
+
+            </LinearLayout>
+
+
+        <Button
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="exit"
+                android:textSize="16sp"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:background="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/returnData"
+                android:text="return Data"/>
+        </LinearLayout>
+
+
+</FrameLayout>
